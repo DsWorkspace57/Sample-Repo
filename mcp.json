@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "task-manager": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": ["run", "--project", "./TaskManagerMCP/TaskManagerMCP.csproj"],
+      "description": "Custom Task Manager MCP Server — manages tasks, notes, and standups",
+      "env": {}
+    }
+  }
+}
